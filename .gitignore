@@ -1,0 +1,24 @@
+# Ignorar el entorno virtual
+venv/
+.env/
+*.egg-info/
+__pycache__/
+
+# Ignorar archivos de configuración específicos de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos generados
+*.log
+
+# Ignorar archivos de caché y otros archivos temporales
+*.pyo
+*.pyd
+*.pyc
+*.db
+*.DS_Store
+
+# Ignorar archivos de compilación de distutils
+build/
+dist/
+*.egg
